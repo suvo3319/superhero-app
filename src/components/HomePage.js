@@ -4,7 +4,7 @@ import { Navbar } from "./Navbar";
 import { usePostHeroesMutation } from "../redux/Api";
 
 export const HomePage = () => {
-  const [postHeroes] = usePostHeroesMutation();
+  const [postHeroes, { isLoading, isError }] = usePostHeroesMutation();
   const [formData, setFormData] = useState({
     name: "",
     real_name: "",
@@ -60,6 +60,13 @@ export const HomePage = () => {
       Team ID: ${formData.team_id}
     `);
   };
+
+  if (isLoading) {
+    return <div className="loading-div">Loading...</div>;
+  }
+  if (isError) {
+    return <div className="error-div">Something went wrong... </div>;
+  }
 
   return (
     <>

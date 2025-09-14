@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router";
 import { HomePage } from "./components/HomePage";
 import { SuperheroPage } from "./components/SuperHeroPage";
+import "./App.css";
 
 function App() {
   return (

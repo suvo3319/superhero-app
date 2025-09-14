@@ -14,10 +14,12 @@ export const SuperheroPage = () => {
 
   const { isLoading, isError, data, error } = useGetHeroesQuery("");
   if (isLoading) {
-    return <div>Loading...</div>;
+    return <div className="loading-div">Loading...</div>;
   }
   if (isError) {
-    return <div>Something went wrong... {error.message}</div>;
+    return (
+      <div className="error-div">Something went wrong... {error.message}</div>
+    );
   }
   return (
     <>
