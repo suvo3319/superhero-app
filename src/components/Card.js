@@ -1,3 +1,5 @@
+import "./Card.css";
+
 export const Card = ({ hero }) => {
   return (
     <div className="card">

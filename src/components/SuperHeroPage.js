@@ -1,6 +1,4 @@
-import { useEffect, useState } from "react";
 import { Navbar } from "./Navbar";
-import axios from "axios";
 import { Card } from "./Card";
 import { useGetHeroesQuery } from "../redux/Api";
 

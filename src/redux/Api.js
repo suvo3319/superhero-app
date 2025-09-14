@@ -5,11 +5,21 @@ export const Api = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: "http://localhost:3001/",
   }),
+  tagTypes: ["heroes"],
   endpoints: (builder) => ({
     getHeroes: builder.query({
       query: () => "superheroes",
+      providesTags: ["heroes"],
+    }),
+    postHeroes: builder.mutation({
+      query: (post) => ({
+        url: "superheroes",
+        method: "POST",
+        body: post,
+      }),
+      invalidatesTags: ["heroes"],
     }),
   }),
 });
 
-export const { useGetHeroesQuery } = Api;
+export const { useGetHeroesQuery, usePostHeroesMutation } = Api;

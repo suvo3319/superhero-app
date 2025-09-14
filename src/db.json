@@ -1,74 +1,119 @@
 {
   "superheroes": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Spider-Man",
       "real_name": "Peter Parker",
       "publisher": "Marvel Comics",
       "alignment": "good",
-      "abilities": ["Wall-crawling", "Superhuman strength", "Spider-sense", "Web-shooting"],
+      "abilities": [
+        "Wall-crawling",
+        "Superhuman strength",
+        "Spider-sense",
+        "Web-shooting"
+      ],
       "image_url": "https://www.simplifiedcoding.net/demos/marvel/spiderman.jpg",
       "first_appearance": "August 1962",
       "biography": "Bitten by a radioactive spider, high school student Peter Parker gained incredible abilities and dedicates his life to protecting the people of New York City.",
       "team_id": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Iron Man",
       "real_name": "Tony Stark",
       "publisher": "Marvel Comics",
       "alignment": "good",
-      "abilities": ["Genius-level intellect", "Powered armor suit", "Repulsor beams", "Flight"],
+      "abilities": [
+        "Genius-level intellect",
+        "Powered armor suit",
+        "Repulsor beams",
+        "Flight"
+      ],
       "image_url": "https://www.simplifiedcoding.net/demos/marvel/ironman.jpg",
       "first_appearance": "March 1963",
       "biography": "A billionaire industrialist and genius inventor, Tony Stark creates a powered suit of armor to fight crime after being severely injured.",
       "team_id": 1
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Batman",
       "real_name": "Bruce Wayne",
       "publisher": "DC Comics",
       "alignment": "good",
-      "abilities": ["Master detective", "Peak human physical and mental condition", "Advanced technology", "Expert martial artist"],
+      "abilities": [
+        "Master detective",
+        "Peak human physical and mental condition",
+        "Advanced technology",
+        "Expert martial artist"
+      ],
       "image_url": "https://i.pinimg.com/736x/07/53/02/0753021842af5ecb8748282d33ffdffc.jpg",
       "first_appearance": "March 1939",
       "biography": "Witnessing his parents' murder as a child, Bruce Wayne trains his mind and body to perfection and uses his vast wealth to fight crime in Gotham City.",
       "team_id": 2
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Wonder Woman",
       "real_name": "Diana Prince",
       "publisher": "DC Comics",
       "alignment": "good",
-      "abilities": ["Superhuman strength and agility", "Flight", "Lasso of Truth", "Amazonian training"],
+      "abilities": [
+        "Superhuman strength and agility",
+        "Flight",
+        "Lasso of Truth",
+        "Amazonian training"
+      ],
       "image_url": "https://wallpapers.com/images/hd/wonder-woman-pictures-jke26nfwyfkyer11.jpg",
       "first_appearance": "December 1941",
       "biography": "The Amazonian princess of Themyscira, Diana was raised to be an unconquerable warrior and serves as an ambassador of peace to the human world.",
       "team_id": 2
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "The Flash",
       "real_name": "Barry Allen",
       "publisher": "DC Comics",
       "alignment": "good",
-      "abilities": ["Super speed", "Time travel", "Phasing through objects"],
+      "abilities": [
+        "Super speed",
+        "Time travel",
+        "Phasing through objects"
+      ],
       "image_url": "https://wallpapers.com/images/hd/grant-gustin-the-flash-movie-superhuman-speed-m5a1shouay2ynxnq.jpg",
       "first_appearance": "October 1956",
       "biography": "Forensic scientist Barry Allen is struck by lightning and doused with chemicals, gaining the ability of super speed and becoming the Flash.",
+      "team_id": 2
+    },
+    {
+      "id": "ed8a",
+      "name": "Super Man",
+      "real_name": "Clark Kent",
+      "publisher": "DC",
+      "alignment": "good",
+      "abilities": [
+        "super strength",
+        "flight",
+        "super speed",
+        "invulnerability",
+        "heat vision",
+        "super hearing",
+        "X-ray vision",
+        "freeze breath"
+      ],
+      "image_url": "https://cdn.theatlantic.com/thumbor/t_SUTY6eiMNjB5_jOvdz8Cv0mFA=/0x0:1920x1080/976x549/media/img/mt/2015/05/man/original.jpg",
+      "first_appearance": "April 1938",
+      "biography": "Superman was born Kal-El, on the fictional planet Krypton. As a baby, his parents Jor-El and Lara sent him to Earth in a small spaceship shortly before Krypton was destroyed in an apocalyptic cataclysm. His ship landed in the American countryside near the fictional town of Smallville, Kansas, where he was found and adopted by farmers Jonathan and Martha Kent, who named him Clark Kent.",
       "team_id": 2
     }
   ],
   "teams": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Avengers",
       "publisher": "Marvel Comics"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Justice League",
       "publisher": "DC Comics"
     }
